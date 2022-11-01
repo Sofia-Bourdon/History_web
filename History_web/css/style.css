@@ -1,3 +1,15 @@
-h1 {
-    color: red;
+body
+{
+    width: auto;
+    margin: 10%;
+    background-color: #dadda6;
+}
+
+header
+{
+    background-color: #4e633f;
+}
+nav ul
+{
+   float: right;
 }
