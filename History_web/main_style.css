@@ -7,9 +7,9 @@ body
 
 header
 {
-    background-color: #4e633f;
-    padding: 5%;
-
+    /* background-color: #4e633f;  */
+    background-color: red;
+    padding: 2%;
 }
 nav ul
 {
