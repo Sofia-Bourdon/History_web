@@ -1,0 +1,48 @@
+body
+{
+    width: 100%;
+    margin: 0%;
+    background-color: #aab5a3;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+main
+{
+    width: auto;
+    margin: 1.7%;
+
+}
+
+header
+{
+    background-color: #4e633f;
+    padding: 2%;
+}
+nav ul
+{
+   float: right;
+   list-style: none;
+   margin-top: 0;
+}
+#middle_section
+{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+article
+{
+    width: 75%;
+}
+aside
+{
+  width: auto;
+  margin-left: 5%;
+  display: flex;
+  
+}
+#armistice_img
+{
+    width: 100%;
+}
+
+
