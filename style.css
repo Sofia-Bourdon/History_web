@@ -14,7 +14,8 @@ main
 
 header
 {
-    background-color: #4e633f;
+    /* background-color: #4e633f; */
+    background-color: red;
     padding: 2%;
 }
 nav ul
@@ -44,5 +45,6 @@ aside
 {
     width: 100%;
 }
+
 
 
