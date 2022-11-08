@@ -12,10 +12,9 @@ main
 
 }
 
-header
+#website-header
 {
-    /* background-color: #4e633f; */
-    background-color: red;
+    background-color: #4e633f;
     padding: 2%;
 }
 nav ul
@@ -30,20 +29,49 @@ nav ul
     display: flex;
     justify-content: flex-start;
 }
+p
+{
+    font-size: 110%;
+}
 article
 {
     width: 75%;
+}
+figure
+{
+    margin: 0;
+}
+#armistice_img
+{
+    width: 100%;
+}
+.details
+{
+    margin: 1%;
+}
+.details summary
+{
+    font-size: 125%;
+    font-weight: bold;
+}
+.history_allies details
+{
+    margin-top: 2%;
 }
 aside
 {
   width: auto;
   margin-left: 5%;
   display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+  padding: 3%;
+  background-color: #9fbedf;
   
 }
-#armistice_img
+a
 {
-    width: 100%;
+    text-decoration: none;
 }
 
 

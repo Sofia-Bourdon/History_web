@@ -8,7 +8,7 @@
     <title>History</title>
 </head>
 <body>
-    <header>
+    <header id="website-header">
         <h2>History Website</h2>
         <nav>
             <ul>
@@ -20,18 +20,27 @@
     <main>
         <div id="middle_section">
         <article>
+            <header id="article-header">
                 <h1>Armistice Day</h1>
                 <p>The Armistice day marks the beginning of the end of The First World War. In 11 of November 1918 an armistice agreement between Germany and the Allies took place in a railroad car outside Compiégne, France.</p>
-                <img id="armistice_img" src="images/end-of-wwi-armistice-getty.jpg" alt="End of WWI Celebrations">
-            <section>
-                <h2>History in Allied countries</h2>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce euismod mauris quis ultricies placerat. Etiam erat magna, laoreet ac lectus feugiat, tincidunt mattis lorem. Vestibulum volutpat nec sem et convallis. Fusce suscipit, quam ac interdum elementum, tellus augue porta magna, eu semper leo nunc sit amet nunc. Pellentesque lorem dolor, elementum ac posuere quis, porttitor in diam. Suspendisse ultricies nunc quis leo tempor varius. Phasellus id velit a sem laoreet imperdiet.</p>
+            </header>
+            <figure>
+               <img id="armistice_img" src="images/end-of-wwi-armistice-getty.jpg" alt="End of WWI Celebrations">
+               <figcaption>Soldiers celebrating World War I Armistice. (Photo by Time Life Pictures/US Army Signal Corps/The LIFE Picture Collection/Getty Images)</figcaption>
+            </figure>
+            <section class="history_allies">
+                <details class="details" id="history_allies">
+                    <summary>History in Allied countries</summary>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce euismod mauris quis ultricies placerat. Etiam erat magna, laoreet ac lectus feugiat, tincidunt mattis lorem. Vestibulum volutpat nec sem et convallis. Fusce suscipit, quam ac interdum elementum, tellus augue porta magna, eu semper leo nunc sit amet nunc. Pellentesque lorem dolor, elementum ac posuere quis, porttitor in diam. Suspendisse ultricies nunc quis leo tempor varius. Phasellus id velit a sem laoreet imperdiet.</p>
+                </details>
             </section>
-            <section>
+            <section id="poppy_history">
                 <h2>Remembrance Day and Symbols</h2>
-                <h3>Poppies</h3>
-                <img src="images/poppy.jpg" alt="Poppies">
-                <p>The red poppy is a symbol of both Remembrance and hope for a peaceful future.</p>
+                <details class="poppy_history details">
+                    <summary>Poppies</summary>
+                    <img src="images/poppy.jpg" alt="Poppies">
+                    <p>The red poppy is a symbol of both Remembrance and hope for a peaceful future.</p>
+                </details>
             </section>
             <footer>
                  <h3>Footnotes</h3>
@@ -39,6 +48,7 @@
         </article>
         <aside>
             <h2>Learn more</h2>
+            <a href="#history_allies"><strong>History in Allied countries</strong></a>
         </aside>
       </div>
 
