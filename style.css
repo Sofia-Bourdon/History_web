@@ -14,14 +14,37 @@ main
 
 #website-header
 {
-    background-color: #4e633f;
+    background-color: #334521;
     padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header
+{
+    color: #bec6b8;
+}
+#header_icon
+{
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+}
+.fa-pasted-svg
+{
+  width: 10%;
+  padding: 3%;
+  display: flex;
+  align-self: center;
+}
+.header h2
+{
+    margin: 0.83em;
 }
 nav ul
 {
    float: right;
    list-style: none;
-   margin-top: 0;
 }
 #middle_section
 {
