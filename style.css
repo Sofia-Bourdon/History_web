@@ -46,6 +46,20 @@ nav ul
    float: right;
    list-style: none;
 }
+nav li
+{
+    display: flex;
+    justify-content: center;
+    padding-right: 0%;
+}
+nav > a 
+{
+    color: #bec6b8;
+}
+.fa-hand-holding-heart
+{
+    margin: 10%;
+}
 #middle_section
 {
     width: 100%;
@@ -87,15 +101,29 @@ figure
 {
     margin-top: 2%;
 }
-.poppy_history img
+/* 
+ .symbols > img, p 
+{
+    display: inline-block;
+}
+.symbols > img
+{
+    float: left;
+}
+.symbols > p
+{
+    float: right;
+}
+*/
+#poppy_history img
 {
     width: 50%;
 }
-.bleuet_history img
+#bleuet_history img
 {
     width: 25%;
 }
-.natalie_ramonda img
+#natalie_ramonda img
 {
     width: 25%;
 }
@@ -116,17 +144,25 @@ aside
     display: flex;
     flex-direction: column;
 }
-a
+ #list_contents > a 
 {
-    text-decoration: none;
     color: black;
-    font-weight: 400;
+    text-decoration: solid;
+    font-weight: bolder;
     margin-bottom: 5%;
 }
 a:hover 
 {
     cursor: pointer;
     color: darkblue;
+}
+#footer
+{
+    background-color: #334521;
+    bottom: 0px;
+    width: 100%;
+    margin-bottom: 0%;
+    padding-bottom: 3%;
 }
 
 
