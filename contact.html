@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>FAQs History web</title>
+    <title>Contact - History web</title>
     <script src="https://kit.fontawesome.com/97eb7f29a1.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -22,7 +22,27 @@
         </nav>
     </header>
     <main>
-        <h1>Frequently Asked Questions</h1>
+        <h1>Contact us</h1>
+        <hr>
+        <form>
+            <div id="name_form">
+                <label for="name">Full name:</label>
+                <input id="name" type="text" name="full_name" placeholder="Enter your full name">
+            </div>
+            <div id="email_form">
+                <label for="email">Email:</label>
+                <input id="email" type="email" name="email" placeholder="Enter your Email:">
+            </div>
+            <div id="subject_form">
+                <label for="subject">Subject:</label>
+                <input id="subject" type="text" name="subject">
+            </div>
+            <label for="message">Type message here:</label>
+            <br>
+            <textarea id="message" name="message" placeholder="Details" cols="80" rows="5"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
     </main>
     <footer>
         <div class="footer_social">
