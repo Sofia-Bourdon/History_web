@@ -22,26 +22,46 @@
         </nav>
     </header>
     <main>
-        <h1>Contact us</h1>
+        <h1 id="h1_contact">Contact us</h1>
+        <div id="contact_info">
+            <div id="address_info" class="info_center">
+                <i class="fak fa-pasted-svg-2 fa-2x"></i>
+                <h3>Address</h3>
+                <p>20 Potato Road
+                    <br>
+                    London, UK.
+                </p>
+            </div>
+            <div id="email_info" class="info_center">
+                <i class="fak fa-pasted-svg-3 fa-2x"></i>
+                <h3>Email</h3>
+                <p>historyweb@gmail.com</p>
+            </div>
+            <div id="phone_info" class="info_center">
+                <i class="fak fa-pasted-svg-4 fa-2x"></i>
+                <h3>Phone</h3>
+                <p>+1(87)53629874</p>
+            </div>
+        </div>
         <hr>
-        <form>
-            <div id="name_form">
+        <form id="form">
+            <div id="name_form" class="ind_form">
                 <label for="name">Full name:</label>
                 <input id="name" type="text" name="full_name" placeholder="Enter your full name">
             </div>
-            <div id="email_form">
+            <div id="email_form" class="ind_form">
                 <label for="email">Email:</label>
                 <input id="email" type="email" name="email" placeholder="Enter your Email:">
             </div>
-            <div id="subject_form">
+            <div id="subject_form" class="ind_form">
                 <label for="subject">Subject:</label>
                 <input id="subject" type="text" name="subject">
             </div>
-            <label for="message">Type message here:</label>
+            <label for="message" id="message_label">Type message here:</label>
             <br>
             <textarea id="message" name="message" placeholder="Details" cols="80" rows="5"></textarea>
             <br>
-            <input type="submit" value="Submit">
+            <input id="submit_button"type="submit" value="Submit">
         </form>
     </main>
     <footer>
