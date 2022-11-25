@@ -194,7 +194,6 @@ aside
 }
 .ind_form
 {
-    line-height: 40px;
     margin: 25px;
 }
 .ind_form input
@@ -209,15 +208,45 @@ aside
 #message
 {
     margin-left: 25px;
-    margin: 10px;
+    margin-top: 20px;
     border-radius: 10px;
 }
 #submit_button
 {
+    cursor: pointer;
     margin-left: 25px;
     border-radius: 10px;
     height: 35px;
     width: 70px;
+}
+#h1_info
+{
+    text-align: center;
+    margin: 5%;
+}
+#p1
+{
+    width: 25%;
+    margin: auto;
+}
+#rbl_box
+{
+    width: 40%;
+    padding: 2%;
+    margin: auto;
+    background-color:#bec6b8;
+}
+#rbl_photo
+{
+    width: 100%;
+    margin: auto;
+}
+.donate_button
+{
+    background-color:blue;
+    color: white;
+    font-weight: bolder;
+    border-color: tomato;
 }
 footer
 {
