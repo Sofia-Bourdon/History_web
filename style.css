@@ -108,31 +108,40 @@ figure
 {
     margin-top: 2%;
 }
-/* 
- .symbols > img, p 
+#common_symbols
+{
+    width: 100%;
+    margin: auto;
+}
+ .symbols
 {
     display: inline-block;
+    margin: auto;
 }
-.symbols > img
+.symbol_img
 {
     float: left;
+    margin: auto;
 }
-.symbols > p
+.symbol_p
 {
     float: right;
+    width: 65%;
 }
-*/
 #poppy_history img
 {
-    width: 50%;
+    width: 30%;
+    margin: auto;
 }
 #bleuet_history img
 {
     width: 25%;
+    margin: auto;
 }
 #natalie_ramonda img
 {
     width: 25%;
+    margin: auto;
 }
 aside
 {
@@ -222,31 +231,39 @@ aside
 #h1_info
 {
     text-align: center;
-    margin: 5%;
+    margin: 2%;
 }
 #p1
 {
     width: 25%;
     margin: auto;
 }
-#rbl_box
+#donatios_box
 {
-    width: 40%;
+    padding: auto;
+    margin: 1%;
+}
+.ind_box
+{
+    width: 50%;
     padding: 2%;
     margin: auto;
     background-color:#bec6b8;
 }
-#rbl_photo
+.don_photo
 {
     width: 100%;
     margin: auto;
 }
 .donate_button
 {
-    background-color:blue;
+    background-color:#17a3fd;
     color: white;
     font-weight: bolder;
     border-color: tomato;
+    border-radius: 10px;
+    height: 40px;
+    width: 75px;
 }
 footer
 {
