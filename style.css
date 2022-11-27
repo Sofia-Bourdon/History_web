@@ -240,7 +240,6 @@ aside
 }
 #donatios_box
 {
-    padding: auto;
     margin: 1%;
 }
 .ind_box
@@ -323,4 +322,93 @@ footer .copyright
     color: #aaa;
 }
 
-
+@media all and (max-width: 768px)
+{
+.fa-pasted-svg
+{
+    visibility: hidden;
+}
+#middle_section
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+article
+{
+    width: 100%;
+}
+figure
+{
+    margin: auto;
+    width: 100%;
+}
+#armistice_img
+{
+    width: 100%;
+}
+aside
+{
+  width: auto;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  border: 2px #333300;
+  background-color: #bec6b8;
+  padding: 3%;
+}
+.symbols
+{
+    width: 100%;
+    margin: auto;
+}
+.symbol_img
+{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+.symbol_p
+{
+    margin: auto;
+    width: 100%
+}
+#poppy_history img
+{
+    width: 90%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#bleuet_history img
+{
+    width: 90%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#natalie_ramonda img
+{
+    width: 90%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#p1
+{
+    width: 65%;
+    margin: auto;
+}
+#donatios_box
+{
+    margin: 1%;
+}
+.ind_box
+{
+    width: 90%;
+    padding: 2%;
+    margin: auto;
+    background-color:#bec6b8;
+}
+}
