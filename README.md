@@ -1,108 +1,85 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+**History Web**
+---------------
 
-Welcome Sofia-Bourdon,
+History web is a history website focused on educating people about the 1918 Armistice that marked the beginning of the end of the Great War (WW1), it's symbology and how it affect us to this day.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+This website was build so users can easily access all important information about the historical event and support modern day veterans in these trying times.
+<img width="1512" alt="Screenshot 1" src="https://user-images.githubusercontent.com/112895499/204667629-77b50128-e23f-4844-a050-afe7d2e6f1aa.png">
+<img width="961" alt="Screenshot 2" src="https://user-images.githubusercontent.com/112895499/204667641-60b29914-b0d2-41bd-b0b5-8d88f62cafad.png">
 
 ------
 
-## Release History
+# Features
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+**Navigation:**
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+- In the navigation menu located in the header of the page the user can find links to a Contact page and a Get involved page. When clicked, they are directed to a new page, where the links displayed in the header are updated to easily accesss the Home page again.
+- In the Aside bar at the right top corner of the index page multiple links within the page are listed so the user can easily access all information avaliable at the page.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+**Header**
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- The Header displays the name of the website with a chosen icon from font-awesome on the left and links to other 2 pages on the right. A dark military inspired green was chosen as background color with a contrast of a light beige.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+**Main section**
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- The main section is composed of an article with an aside. The article contains all major information about Armistice Day and is composed of a header, a figure and 3 different sections. All sections are linked in the aside box for easier access.
+- The Article is separated into 3 different topics: Armistice Day, Remembrance Day and Common Symbols Associated. It contains a summary of each topic, a list containing the countries that celebrate it and  appropriate image for each symbol chosen.
+- The aside box has a slightly lighter beige tone as background color so it can dinstinct itself from the main content without looking out of place.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+**Get Involved page:**
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- In the navigation menu at the top of the home page the user can find a link to the Get Involved page where two different links as well as a small paragraph can be found. 
+- The 2 Donation links are displayed in a box style with an image and a small complementary text under. The same lighter tone of beige used in the aside is used as background for each box to maintain the overall aesthetic of the website.
+- The two different links direct the user to external pages. The first one to the donations section of the Royal British Legion Website and the second one to a donation form for the Bleuet de France movement.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+**Contact page:** 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+- In the Contact page the user can find all important contact information of the page such as History web's address, email and phone number followed by a form where a message can be left alonside with the users own contact information for a reply and a submit button.
+- Icons such as telephone and mail were implemented to improve users accessibility and overall experience.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+<img width="1512" alt="Screenshot 3" src="https://user-images.githubusercontent.com/112895499/204668661-7e70d2bd-f30d-4678-b28d-147739bd4d6c.png">
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+**Footer:** 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- The footer of the page contains clickable icons where the user will be redirected to different social media websites. It also contains links within the site to access the Get Involved page and the Contact page.
+- The background color of the footer is the same as the website header to maintain the aesthetics and theme of the page.
 
 ------
 
-## FAQ about the uptime script
+# Testing 
 
-**Why have you added this script?**
+**Browser testing**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+- The project was created based on google chrome but functions just as well (although the font changes slightly) on Safari and Firefox.
+- The project is responsive and adapts well to different screen sizes.
 
-**How will this affect me?**
+**Bugs**
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+- During most of the process the CSS file broke several times despite all the file path being done correctly.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+**Validator Testing**
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+- The HTML code passed the official W3C validator.
+- The CSS code passed the official W3C validator.
+- The site marks a high score for accessibility 
+<img width="557" alt="Screenshot 4" src="https://user-images.githubusercontent.com/112895499/204668380-81b6a049-7039-48a8-a5aa-055e28ee517a.png">
 
-**So….?**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
 
-**Can I opt out?**
+# Deployment 
+- This site was deployed to Github following the instructions given by Code Institute:
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+#Credits 
+**Content** 
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+- The footer style was inspired by a tutorial on youtube, Link as follows: https://www.youtube.com/watch?v=2-5LpaN2LF8
+- Information about the Historical events were taken from the following places: 
+- https://en.wikipedia.org/wiki/Armistice_Day
+https://en.wikipedia.org/wiki/Armistice_Day#Footnotes https://www.iwm.org.uk/history/why-we-wear-poppies-on-remembrance-day#:~:text=The%20poppy%20is%20the%20enduring,especially%20on%20the%20Western%20Front.
+https://www.britishlegion.org.uk/get-involved/ways-to-give/donate?seg=ZPBREMPPC&gclid=Cj0KCQiA1ZGcBhCoARIsAGQ0kkrtW2phylgT0AjsyjLxD7S-tepb6Ae7PKGUTVLoUHIQS0OAPEF1-e0aAsReEALw_wcB&gclsrc=aw.ds
+https://en.wikipedia.org/wiki/Bleuet_de_France
+http://www.serbia.com/about-serbia/serbia-history/world-war-one/natalies-ramonda/
+https://en.wikipedia.org/wiki/Ramonda_nathaliae
 
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
