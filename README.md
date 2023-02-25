@@ -4,9 +4,8 @@
 History web is a history website focused on educating people about the 1918 Armistice that marked the beginning of the end of the Great War (WW1), it's symbology and how it affect us to this day.
 
 This website was build so users can easily access all important information about the historical event and support modern day veterans in these trying times.
-<img width="1512" alt="Screenshot 1" src="https://user-images.githubusercontent.com/112895499/204667629-77b50128-e23f-4844-a050-afe7d2e6f1aa.png">
-<img width="961" alt="Screenshot 2" src="https://user-images.githubusercontent.com/112895499/204667641-60b29914-b0d2-41bd-b0b5-8d88f62cafad.png">
 
+<img width="1482" alt="Screenshot 2023-02-25 at 22 33 02" src="https://user-images.githubusercontent.com/112895499/221380608-e8fa57f0-2b5d-40a2-bbfd-3a0c5e9c28d8.png">
 ------
 
 # Features
@@ -55,21 +54,26 @@ This website was build so users can easily access all important information abou
 - The project was created based on google chrome but functions just as well (although the font changes slightly) on Safari and Firefox.
 - The project is responsive and adapts well to different screen sizes.
 
-**Bugs**
+**Bugs and Debugging**
 
 - During most of the process the CSS file broke several times despite all the file path being done correctly.
+- The file directory presented issues nesting folders and accessing HTML files. Issues were fixed on debugging by adding "/" when attributing Hyperlinks.
+- The anchor tag inside line 105 was shown as an error on the W3c validator but no solution was found.
 
 **Validator Testing**
 
-- The HTML code passed the official W3C validator.
+- The HTML code for the Get Involved page and Contact passed the official W3C validator but the index presented Error on line 105. Unfortunetly a solution for the error was not found while debugging.
+<img width="1482" alt="Screenshot 2023-02-25 at 22 49 24" src="https://user-images.githubusercontent.com/112895499/221381156-2b35e037-48e5-46c4-9fe6-a7f3bc2ccfc7.png">
+
 - The CSS code passed the official W3C validator.
+<img width="1454" alt="Screenshot 2023-02-25 at 22 51 37" src="https://user-images.githubusercontent.com/112895499/221381223-9341b696-f88a-42e3-8958-3aa06ac46ac1.png">
+
 - The site marks a high score for accessibility 
 <img width="557" alt="Screenshot 4" src="https://user-images.githubusercontent.com/112895499/204668380-81b6a049-7039-48a8-a5aa-055e28ee517a.png">
 
 
-
 # Deployment 
-- This site was deployed to Github following the instructions given by Code Institute:
+- This site was deployed to Github and is live on Github pages following the instructions given by Code Institute.
 
 #Credits 
 **Content** 
