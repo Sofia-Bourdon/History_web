@@ -14,6 +14,7 @@ main
 
 #website-header
 {
+    text-decoration: none;
     background-color: #334521;
     padding: 2%;
     display: flex;
@@ -23,13 +24,21 @@ main
 .header
 {
     color: #bec6b8;
+    text-decoration: none;
 }
 #header_icon
 {
+    text-decoration: none;
     width: 20%;
     display: flex;
     justify-content: flex-start;
 }
+
+#header_icon a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .fa-pasted-svg
 {
   width: 10%;
