@@ -5,9 +5,10 @@ History web is a history website focused on educating people about the 1918 Armi
 
 This website was build so users can easily access all important information about the historical event and support modern day veterans in these trying times.
 
-<img width="1482" alt="Screenshot 2023-02-25 at 22 33 02" src="https://user-images.githubusercontent.com/112895499/221380608-e8fa57f0-2b5d-40a2-bbfd-3a0c5e9c28d8.png">
+<img width="1304" alt="screenshot_historyweb" src="https://github.com/Sofia-Bourdon/History_web/assets/112895499/89a097ac-55ae-401c-8d9b-ff2189cde917">
 
 Here is the link to the deployed website: https://sofia-bourdon.github.io/History_web/
+
 ------
 
 # Features
@@ -34,12 +35,15 @@ Here is the link to the deployed website: https://sofia-bourdon.github.io/Histor
 - The 2 Donation links are displayed in a box style with an image and a small complementary text under. The same lighter tone of beige used in the aside is used as background for each box to maintain the overall aesthetic of the website.
 - The two different links direct the user to external pages. The first one to the donations section of the Royal British Legion Website and the second one to a donation form for the Bleuet de France movement.
 
+<img width="1512" alt="screenshot_getinvolved" src="https://github.com/Sofia-Bourdon/History_web/assets/112895499/bbba7f92-1ed5-4b1c-8da7-c4192569928e">
+
+
 **Contact page:** 
 
 - In the Contact page the user can find all important contact information of the page such as History web's address, email and phone number followed by a form where a message can be left alonside with the users own contact information for a reply and a submit button.
 - Icons such as telephone and mail were implemented to improve users accessibility and overall experience.
 
-<img width="1512" alt="Screenshot 3" src="https://user-images.githubusercontent.com/112895499/204668661-7e70d2bd-f30d-4678-b28d-147739bd4d6c.png">
+<img width="1512" alt="screenshot_contactus" src="https://github.com/Sofia-Bourdon/History_web/assets/112895499/b54bd9b0-fd30-495d-8095-c29e60f057bd">
 
 
 **Footer:** 
