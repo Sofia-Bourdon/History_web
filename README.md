@@ -19,11 +19,11 @@ Here is the link to the deployed website: https://sofia-bourdon.github.io/Histor
 - In the Aside bar at the right top corner of the index page multiple links within the page are listed so the user can easily access all information avaliable at the page.
 
 
-**Header**
+**Header:**
 
 - The Header displays the name of the website with a chosen icon from font-awesome on the left and links to other 2 pages on the right. A dark military inspired green was chosen as background color with a contrast of a light beige.
 
-**Main section**
+**Main section:**
 
 - The main section is composed of an article with an aside. The article contains all major information about Armistice Day and is composed of a header, a figure and 3 different sections. All sections are linked in the aside box for easier access.
 - The Article is separated into 3 different topics: Armistice Day, Remembrance Day and Common Symbols Associated. It contains a summary of each topic, a list containing the countries that celebrate it and  appropriate image for each symbol chosen.
@@ -86,7 +86,7 @@ Here is the link to the deployed website: https://sofia-bourdon.github.io/Histor
 
 - The footer style was inspired by a tutorial on youtube, Link as follows: https://www.youtube.com/watch?v=2-5LpaN2LF8
 - Information about the Historical events were taken from the following places: 
-- https://en.wikipedia.org/wiki/Armistice_Day
+https://en.wikipedia.org/wiki/Armistice_Day
 https://en.wikipedia.org/wiki/Armistice_Day#Footnotes https://www.iwm.org.uk/history/why-we-wear-poppies-on-remembrance-day#:~:text=The%20poppy%20is%20the%20enduring,especially%20on%20the%20Western%20Front.
 https://www.britishlegion.org.uk/get-involved/ways-to-give/donate?seg=ZPBREMPPC&gclid=Cj0KCQiA1ZGcBhCoARIsAGQ0kkrtW2phylgT0AjsyjLxD7S-tepb6Ae7PKGUTVLoUHIQS0OAPEF1-e0aAsReEALw_wcB&gclsrc=aw.ds
 https://en.wikipedia.org/wiki/Bleuet_de_France
