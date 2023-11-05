@@ -6,6 +6,8 @@ History web is a history website focused on educating people about the 1918 Armi
 This website was build so users can easily access all important information about the historical event and support modern day veterans in these trying times.
 
 <img width="1482" alt="Screenshot 2023-02-25 at 22 33 02" src="https://user-images.githubusercontent.com/112895499/221380608-e8fa57f0-2b5d-40a2-bbfd-3a0c5e9c28d8.png">
+
+Here is the link to the deployed website: https://sofia-bourdon.github.io/History_web/
 ------
 
 # Features
